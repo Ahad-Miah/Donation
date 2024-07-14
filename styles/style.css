@@ -295,12 +295,12 @@ input[type="button"]{
     .situation-container{
         margin-left: 165px;
     }
-    .situation-container .content1{
+    /* .situation-container .content1{
         flex-direction: column;   
-    }
-    .situation-container #content2{
+    } */
+    /* .situation-container #content2{
         flex-direction: column-reverse;
-    }
+    } */
     .updates-container{
         margin-left: 270px;
     }
