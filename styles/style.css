@@ -53,6 +53,7 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+/* Donate section style */
 .donate{
     width:1000px;
     height:500px;
@@ -108,6 +109,7 @@ hr{
     border-radius: 5px;
     background: rgb(255, 238, 238);
 }
+/* donation plan style */
 .donate-plan{
     height:500px;
     width: 1100px;
@@ -168,6 +170,7 @@ hr{
 #plan3{
     background-color: rgba(163, 142, 142, 0.178);
 }
+/* Situation container style */
 .situation-container{
     width:1000px;
     height:900px;
@@ -210,6 +213,7 @@ hr{
     font-size: 15px;
     padding:5px;
 }
+/* updates section style */
 .updates-container{
     height:400px;
     width:800px;
@@ -281,3 +285,24 @@ input[type="button"]{
     font-size:14px;
     color: rgb(217, 219, 225);
 }
+@media screen and (max-width:576px){
+    .donate{
+        margin-left: 170px;
+    }
+    .donate-plan{
+        margin-left: 120px;
+    }
+    .situation-container{
+        margin-left: 165px;
+    }
+    .situation-container .content1{
+        flex-direction: column;   
+    }
+    .situation-container #content2{
+        flex-direction: column-reverse;
+    }
+    .updates-container{
+        margin-left: 270px;
+    }
+}
+   
