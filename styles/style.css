@@ -208,3 +208,53 @@ hr{
     font-size: 15px;
     padding:5px;
 }
+.updates-container{
+    height:400px;
+    width:800px;
+    margin:0px auto;
+    margin-bottom: 130px;
+}
+.my-updates{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.my-updates h2{
+    color: rgb(18, 18, 18);
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.my-updates p{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+}
+.send-message{
+    width:100%;
+    height:200px;
+    background-color:  rgb(255, 244, 214);
+    display:flex;
+    border-radius: 5px;
+   justify-content: center;
+   align-items: center;
+}
+input[type="email"]{
+    width: 275px;
+    height: 48px;
+    border-radius: 5px 0px 0px 5px;
+    background: rgb(217, 217, 217);
+    border:none;
+}
+input[type="button"]{
+    width: 157px;
+    height: 48px;
+    border:none;
+    border-radius: 0px 5px 5px 0px;
+    background: rgb(255, 89, 89);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
